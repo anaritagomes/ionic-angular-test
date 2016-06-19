@@ -23,12 +23,12 @@
 
         <ion-pane>
          <ion-header-bar class="bar-dark">
-        <h1 class="title">Todo List</h1>
-        <!-- New Task button-->
-        <button class="button button-icon" ng-click="openTaskModal()">
-            <i class="icon ion-compose"></i>
-        </button>
-    </ion-header-bar>
+            <h1 class="title">Todo List</h1>
+            <!-- New Task button-->
+            <button class="button button-icon" ng-click="openTaskModal()">
+                <i class="icon ion-compose"></i>
+            </button>
+        </ion-header-bar>
         <ion-content>
             <div class="list card" ng-repeat="task in tasks track by $index">
                 <div class="item item-divider">
