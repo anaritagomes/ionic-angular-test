@@ -42,7 +42,7 @@ app.controller('main', function ($scope, $ionicModal, localStorageService) {
   //configure the ionic model before use
   $ionicModal.fromTemplateUrl('new-task-modal.html', {
     scope: $scope,
-    animation: 'slide-in-up'
+    animation: 'jelly'
   }).then(function (modal) {
     $scope.newTaskModal = modal;
   });
